@@ -1,21 +1,51 @@
 [
     {
         "id": 1,
-        "nombre": "Fron Fitness - Ecommerce",
+        "nombre": "Fron Fitness",
+        "tipo": "Ecommerce",
         "tecnologias": "React - Tailwind Css - Fire Base",
         "descripcion": "",
         "link": "https://proyecto-final-react-js-omega.vercel.app/",
         "linkGit": "https://github.com/leannfran/Proyecto-Final-React.js",
-        "img": "https://firebasestorage.googleapis.com/v0/b/ecommerce-react-coder-11bdc.appspot.com/o/BEST-WHEY-VAINILLA.png?alt=media&token=79627109-f6c4-4995-9d0c-a3a674ca1a4a"
+        "img": "e-commerce.png"
     },
     {
-        "id": 1,
-        "nombre": "Fron Fitness - Ecommerce",
+        "id": 2,
+        "nombre": "Mascota Feliz",
+        "tipo": "Fake Ecommerce",
         "tecnologias": "React - Tailwind Css - Fire Base",
         "descripcion": "",
-        "link": "https://proyecto-final-react-js-omega.vercel.app/",
-        "linkGit": "https://github.com/leannfran/Proyecto-Final-React.js",
-        "img": "https://firebasestorage.googleapis.com/v0/b/ecommerce-react-coder-11bdc.appspot.com/o/BEST-WHEY-VAINILLA.png?alt=media&token=79627109-f6c4-4995-9d0c-a3a674ca1a4a"
+        "link": "https://leannfran.github.io/mascota-feliz/",
+        "linkGit": "https://github.com/leannfran/mascota-feliz",
+        "img": "mascota-feliz.png"
     },
-
+    {
+        "id": 3,
+        "nombre": "Future Agency",
+        "tipo": "Landing Page",
+        "tecnologias": "React - Tailwind Css",
+        "descripcion": "",
+        "link": "https://future-landing.vercel.app/",
+        "linkGit": "https://github.com/leannfran/Future-Landing",
+        "img": "future-agency.png"
+    },
+    {
+        "id": 4,
+        "nombre": "Space Calc",
+        "tipo": "Calculadora",
+        "tecnologias": "Java Script",
+        "descripcion": "",
+        "link": "https://leannfran.github.io/Space-Calc-Js/",
+        "linkGit": "https://github.com/leannfran/Space-Calc-Js",
+        "img": "space-cal.png"
+    }, {
+        "id": 4,
+        "nombre": "RDA nutricion",
+        "tipo": "Landing Page",
+        "tecnologias": "html - css",
+        "descripcion": "",
+        "link": "https://www.rda-nutricion.online/",
+        "linkGit": "https://github.com/leannfran/Rda-nutricion",
+        "img": "rda-nutricion.png"
+    }
 ]

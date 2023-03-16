@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { ProyectsList } from '../ProyectsList/ProyectsList';
+import ProyectsList  from '../ProyectsList/ProyectsList';
 
 const ProyectsListContainer = () => {
     const [proyectos, setProyectos] = useState([]);
@@ -14,8 +14,11 @@ const ProyectsListContainer = () => {
         })
     }, []);
     return (
-        <div>
+        <div id='proyects' className='bg-black text-white font-mono flex flex-col justify-star items-center min-h-[80vh]'>
+            <h3 className='text-xl'>Proyects</h3>
+            <div className='flex flex-col md:flex-row justify-evenly  gap-1 flex-wrap mb-20'>
             {proyectos}
+            </div>
         </div>
     );
 }

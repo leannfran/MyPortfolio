@@ -13,27 +13,27 @@ const Nav = () => {
         <button onClick={()=> setShowMenu(!showMenu)} className="text-white ml-10 mt-8 text-2xl">
           <HiOutlineChevronLeft />
         </button>
-        <nav > 
+        <nav className="text-flicker-in-glow" > 
           <ul className="flex flex-col justify-start gap-20 mt-10 ml-10">
-            <li>home</li>
-            <li><a href="#skills">skills</a></li>
-            <li>proyects</li>
-            <li>about me</li>
-            <li>contact me</li>
+            <li ><a className=" opacity-80 hover:opacity-100" href="#home"> home</a></li>
+            <li ><a className=" opacity-80 hover:opacity-100" href="#proyects">proyects</a> </li>
+            <li ><a className=" opacity-80 hover:opacity-100" href="#aboutMe"> about me</a></li>
+            <li ><a className=" opacity-80 hover:opacity-100" href="#skills">skills</a></li>
+            <li ><a className=" opacity-80 hover:opacity-100" href=""> contact me</a></li>
 
           </ul>
           <div className="flex flex-col mt-44 md:mt-24 gap-4 ml-2 ">
-          <button className="flex items-center bg-black hover:bg-[#8888889b] border rounded-md p-1 max-w-fit"> <AiOutlineDownload className="text-white text-xl mr-1"/>Download Cv</button>
+          <a download="Cv" href="./cvActualizado.pdf" className="flex items-center bg-black hover:bg-[#8888889b] border rounded-md p-1 max-w-fit"> <AiOutlineDownload className="text-white text-xl mr-1"/>Download Cv</a>
 
-          <a href=""><AiFillGithub className="text-white text-3xl"/></a>
-          <a href=""> <AiFillLinkedin className="text-white text-3xl"/> </a>
+          <a href="https://github.com/leannfran"><AiFillGithub className="text-white text-3xl opacity-80 hover:opacity-100"/></a>
+          <a href="https://www.linkedin.com/in/leandro-franco-bb9101245/"> <AiFillLinkedin className="text-white text-3xl opacity-80 hover:opacity-100"/> </a>
           </div>
         </nav>
       </header>
       <button 
       onClick={()=>setShowMenu(!showMenu)}
-      className={` text-white ml-10 mt-10 text-2xl ${showMenu ? "hidden":" fixed"}`}>
-          <HiOutlineChevronRight />
+      className={`text-white ml-10 fixed mt-10 text-2xl ${showMenu ? "opacity-0":" opacity-100"}`}>
+          <HiOutlineChevronRight className="text-flicker-in-glow text-flicker-in-glow"/>
     </button>
     </>
   );
