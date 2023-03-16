@@ -13,20 +13,19 @@ const Nav = () => {
         <button onClick={()=> setShowMenu(!showMenu)} className="text-white ml-10 mt-8 text-2xl">
           <HiOutlineChevronLeft />
         </button>
-        <nav className="text-flicker-in-glow" > 
+        <nav className="text-flicker-in-glow flex  flex-col justify-between h-[100vh]" > 
           <ul className="flex flex-col justify-start gap-20 mt-10 ml-10">
             <li ><a className=" opacity-80 hover:opacity-100" href="#home"> home</a></li>
             <li ><a className=" opacity-80 hover:opacity-100" href="#proyects">proyects</a> </li>
             <li ><a className=" opacity-80 hover:opacity-100" href="#aboutMe"> about me</a></li>
             <li ><a className=" opacity-80 hover:opacity-100" href="#skills">skills</a></li>
-            <li ><a className=" opacity-80 hover:opacity-100" href=""> contact me</a></li>
 
           </ul>
-          <div className="flex flex-col mt-44 md:mt-24 gap-4 ml-2 ">
-          <a download="Cv" href="./cvActualizado.pdf" className="flex items-center bg-black hover:bg-[#8888889b] border rounded-md p-1 max-w-fit"> <AiOutlineDownload className="text-white text-xl mr-1"/>Download Cv</a>
+          <div className="flex flex-col gap-4 mb-8 ml-10 ">
 
           <a href="https://github.com/leannfran"><AiFillGithub className="text-white text-3xl opacity-80 hover:opacity-100"/></a>
           <a href="https://www.linkedin.com/in/leandro-franco-bb9101245/"> <AiFillLinkedin className="text-white text-3xl opacity-80 hover:opacity-100"/> </a>
+          <a download="Cv" href="./cvActualizado.pdf" className="flex items-center bg-black hover:bg-[#8888889b] border rounded-md p-1 max-w-fit"> <AiOutlineDownload className="text-white text-xl mr-1"/>Download Cv</a>
           </div>
         </nav>
       </header>
